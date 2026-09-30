@@ -1,0 +1,398 @@
+h1, h2 {
+	
+		text-align: center; 
+	
+}
+
+ p {
+	 text-align: center; 
+ }
+ 
+*{
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+	
+}
+
+tr {
+	 text-align: center;
+}
+body {
+	
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+	background-color: #27A3F5; 
+	color: #EEE; 
+	min-height: 100%;
+	
+}
+
+/*CABEÇALHO*/
+
+.banner img {
+	
+	width: 100%;
+	height: 150px; 
+	object-fit: cover; 
+}
+
+/*MENU */
+
+.menu {
+	
+	background-color: #273CF5;
+    padding: 10px 10px; 
+    min-height: 100%; 
+    border-right: 2px solid #0F3460;
+}
+
+.menu h3 {
+	
+	color: #27F5E0; 
+    text-align: center;
+    margin-bottom: 10px;/* Reduzido de 20px para subir os links */
+	
+}
+
+.menu  a{
+	
+	display: block; 
+    color: #27F5E0; 
+    text-decoration: none; 
+    padding: 10px; 
+    margin: 5px 0; 
+    transition: 0.3s;
+	
+}
+
+.menu a:hover {
+	
+	background-color: #27F5E0; 
+	color: white; 
+	padding-left: 25px; 
+	
+}
+
+/*HOME*/
+
+.container {
+	
+	padding: 20px;
+    text-align: center; 
+	
+}
+
+.container h1 {
+	
+	color:  #27F5E0; 
+	margin-bottom: 20 px; 
+	text-align: center; 
+}
+
+.container p {
+	
+	text-align: justify; 
+	line-height: 1.6; 
+	margin-bottom: 15px; 
+	
+}
+
+.banner-home {
+	
+	width: 100%;
+	max-width: 800px; 
+	border-radius: 10px; 
+	margin-top: 20px; 
+	
+}
+
+/*SOBRE O JOGO*/
+
+.sobre-container {
+	
+	padding: 20px; 
+	text-align: center;
+	
+}
+
+.sobre-container h1 {
+	
+	color:  #27F5E0; 
+	margin-bottom: 20px; 
+	
+}
+
+.sobre-container p {
+	
+	text-align: justify; 
+	line-height: 1.6; 
+	margin-bottom: 15px; 
+	
+}
+
+.sobre-container iframe {
+	
+	margin-top: 20px; 
+	border-radius: 10px; 
+	max-width: 100%; 
+}
+
+/*LOGIN*/
+
+.login-container {
+	
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	min-height: 80vh; 
+
+	
+}
+
+.login-box {
+	
+	background-color: #27F5E0; 
+	padding: 30px; 
+	border-radius: 10px; 
+	width: 350px; 
+	text-align: center; 
+	box-shadow: 0 5px 15px rgb(0,0,0,0.3);
+}
+
+.login-box h2 {
+	color: #E94560;
+	margin-bottom: 20px;
+	
+}
+
+.login-box table {
+	
+	width: 100%; 
+	border: none;
+	
+}
+
+.login-box td {
+	
+	padding: 10px; 
+	background-color: transparent; 
+    color: #EEE; 	
+	
+}
+
+.login-box input[type="text"], 
+.login-box input[type="password"] {
+	
+	width: 100%; 
+	padding: 8px; 
+	border-radius: 5px; 
+	border: 1px solid #0F3460;
+	background-color: #0f3460;
+	color: white; 
+	
+}
+
+.login-box input[type="submit"] {
+	
+	background-color:#e94560;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+	
+}
+
+.login-box input[type="submit"]:hover {
+    
+	background-color: #c73d55;
+    transform: scale(1.05);
+}
+
+.erro-login {
+    
+	color: #ff6b6b;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/*CADASTRO*/
+.titulo {
+    
+	text-align: center;
+    color: #e94560;
+    margin: 20px 0;
+}
+
+.layout {
+    
+	display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    
+	flex: 2;
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-table {
+    width: 100%;
+    border: none;
+}
+
+.form-table td {
+    
+	padding: 8px;
+}
+
+.form-table .label {
+	
+	width: 100px;
+    font-weight: bold;
+    color: #e94560;
+}
+
+.form-table input[type="text"],
+.form-table input[type="password"],
+.form-table input[type="email"],
+.form-table select {
+    
+	width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #0f3460;
+    background-color: #0f3460;
+    color: white;
+}
+
+.botao {
+    
+	text-align: center;
+}
+
+.botao input {
+    
+	background-color: #e94560;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao input:hover {
+   
+   background-color: #c73d55;
+}
+
+.ranking {
+    
+	flex: 1;
+}
+
+.ranking iframe {
+    
+	width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*RANKING*/
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #16213e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ranking-table .titulo td {
+    
+	background-color: #e94560;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+}
+
+.ranking-table .cabecalho td {
+    
+	background-color: #0f3460;
+    color: #eee;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.ranking-table td {
+    
+	padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #0f3460;
+}
+
+.ranking-table .pos {
+    
+	font-weight: bold;
+    color: #e94560;
+}
+
+.ranking-table img {
+    
+	width: 40px;
+    height: 40px;
+}
+
+/*DASHBOARD*/
+.dashboard {
+    
+	background-color: #16213e;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.dashboard h2 {
+    
+	color: #e94560;
+    margin-bottom: 30px;
+}
+
+.dashboard p {
+    
+	font-size: 18px;
+    margin: 15px 0;
+}
+
+.dashboard span {
+    
+	color: #e94560;
+    font-weight: bold;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 768px) {
+    
+	.layout {
+        flex-direction: column;
+    }
+    
+    .form-table .label {
+        width: 80px;
+    }
+    
+    .dashboard {
+        width: 95%;
+    }
+}
